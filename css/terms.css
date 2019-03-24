@@ -1,0 +1,82 @@
+#terms{
+    margin: 0 auto;
+    width: auto;
+    
+}
+.terms_view{
+	width: auto;
+	margin-top: 60px;
+}
+
+.terms {
+    width: 1200px;
+    border: 5px solid #f0f0f0;
+    margin-top: 40px;
+    margin-left:auto;
+    margin-right: auto;
+    min-height: 470px;
+}
+
+.terms_title {
+	font-family: "微軟正黑體";
+	text-align:center;
+    font-size: 40px;
+    margin-top:30px;
+    margin-bottom:30px;
+
+}
+.terms_text{
+	font-family: "微軟正黑體";
+    padding: 55px;
+    font-size: 20px;
+    line-height: 1.8em; 
+    letter-spacing:0.1em; 
+	text-align:justify;
+}
+.terms_text h4{
+	font-family: "微軟正黑體";
+	margin-bottom:30px;
+	margin-top:50px;
+    font-size: 30px;
+	text-align:justify;
+	color:#000;
+}
+.terms_text h5{
+	font-family: "微軟正黑體";
+	margin-top:50px;
+	margin-bottom:30px;
+    font-size: 25px;
+	text-align:justify;
+	color:#565656;
+
+}
+
+.terms_line {
+    border-bottom: 2px solid #f0f0f0;
+    margin-top: 20px;
+    margin: 0px auto;
+    width:80%;
+
+}
+
+.terms_text img{
+
+	width:870px;
+	height:400px;
+	display:block; 
+	margin:auto;
+
+}
+.contactus{
+	font-family: "微軟正黑體";
+    padding: 55px;
+    font-size: 20px;
+    line-height: 1.8em; 
+    letter-spacing:0.1em; 
+    text-align:center;
+}
+.contactus img{
+	margin-bottom:60px;
+	width:1000px;
+	height:420px;
+}

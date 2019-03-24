@@ -1,0 +1,71 @@
+.timelimit {
+    margin-bottom: -40px;
+    padding-bottom: 120px;
+    background: #f3f3f3;
+}
+.time-title {
+    padding: 110px 0 230px;
+    text-align: center;
+    background: url(../img/time/time.jpg) no-repeat center center;
+    background-size: cover;
+    font-family:"微軟正黑體";
+}
+
+.time-title h2 {
+    font-weight: normal;
+    font-family: "微軟正黑體";
+    font-size: 77px;
+    color: #ffffff;
+}
+.desc {
+    margin-top: 20px;
+    line-height: 1.4;
+     letter-spacing:5px;
+    font-size: 22px;
+    color: #fff;
+}
+.time-box {
+
+    width: 65%;
+    height: 1200px;
+    margin: -200px auto 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.2);
+    background: #ffffff;
+    vertical-align: middle;
+}
+.time-box img{
+    width:1000px;
+    height:500px;
+    display:block; 
+    margin: 50px auto 50px auto; 
+}
+.box-title {
+    padding-top: 40px;
+    text-align: center;
+}
+.box-title span {
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-weight: normal;
+    line-height: 55px;
+    font-size: 37px;
+    color: #555555;
+
+}
+.time_text {
+	margin-right:100px;
+	margin-left:100px;
+    text-align:center;
+
+}
+.time_text p{
+    font-size:18px;
+    color: #707070;
+    letter-spacing:0.25em;
+    line-height:1.8em;
+    text-align: justify;
+    text-justify:inter-ideograph;
+    margin-left: 24%;
+}

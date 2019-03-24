@@ -1,0 +1,518 @@
+/*login*/
+#login{
+	/*height: 636px;*/
+	margin-top:2%;
+	padding-top: 10em;
+    padding-bottom: 18em;
+	background-image : url(../member/login.jpg);
+	background-repeat: no-repeat;
+	background-size: 1670px 636px; /*or 1770*/
+	overflow: hidden;
+}
+.login_container label{
+	position:relative; 
+	color:white;
+	left:17%;
+	top: -40px;
+}
+.login_container p{
+    text-align:left;
+    position:relative; 
+    left:3%;
+    top:-20px;
+}
+.login_container u{
+	size: 200px;
+}
+.login_container a{
+   margin-left: 220px;
+}
+.login_container a:hover{
+   color:#f489b0;
+}
+#login input[type=text] {
+	background-color:transparent;
+	width: 30%;
+	position:relative;
+	padding: 10px 20px;
+	margin: 8px 500px;
+	right:12%;
+	top: -40px;
+	box-sizing: border-box;
+	border: 1px solid #fff;
+	outline: none;
+	-webkit-transition: 0.1s;
+	transition: 0.1s;
+}
+#login input[type=text]:focus {
+	/*margin: 8px 700px;*/
+	/*margin-bottom: 10px;*/
+	border: 5px solid #f489b0;
+}
+#button{
+	position: relative;
+    left: 45%;
+	background-color: #f489b0;
+    border: none;
+    color: white;
+    padding: 16px 80px;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+#button:hover{
+	background-color: #f470a0;
+	
+}
+/*login end*/
+
+/*signup*/
+#signup{
+	margin-top: 2%;
+	height: 900px;
+	background-color:white;
+	padding-top: 10em;
+    padding-bottom: 18em;
+	background-image : url(../member/signup.jpg);
+	background-size:cover;
+}
+.signup_container label{
+	position:relative; 
+	color:white;
+	left:8%;
+	top: -100px;
+}
+#signup input[type=text] {
+	color: #fff;
+	background-color:transparent;
+	width: 30%;
+	position:relative;
+	padding: 10px 20px;
+	margin: 8px 500px;
+	right:20%;
+	top: -100px;
+	box-sizing: border-box;
+	border: 1px solid #fff;
+	outline: none;
+	-webkit-transition: 0.1s;
+	transition: 0.1s;
+}
+#signup input[type=text]:focus {
+	/*margin: 8px 700px;*/
+	/*margin-bottom: 10px;*/
+	border: 5px solid #f489b0;
+}
+.error_id{
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "微軟正黑體";
+	color:#e82110;
+	position:relative; 
+	left:45%;
+	top: 0;
+}
+.error_password{
+	font-size: 20px;
+	font-family: "微軟正黑體";
+	position:relative; 
+	left:45%;
+	top: 100px;
+}
+.error_name{
+	font-size: 20px;
+	font-family: "微軟正黑體";
+	position:relative; 
+	left:45%;
+	top: 200px;
+}
+.error_email{
+	font-size: 20px;
+	font-family: "微軟正黑體";
+	position:relative; 
+	left:45%;
+	top: 300px;
+}
+.error_phone{
+	font-size: 20px;
+	font-family: "微軟正黑體";
+	position:relative; 
+	left:45%;
+	top: 400px;
+}
+.error_address{
+	font-size: 20px;
+	font-family: "微軟正黑體";
+	position:relative; 
+	left:45%;
+	top: 500px;
+}
+/*signup end*/
+/*member*/
+.Paw_memberleft{
+	width: 300px;
+	float: left;
+	margin-left: 14%;	
+}
+.memberleft{
+	color: #909090;
+	margin-bottom: 20px;
+}
+.memberleft a{
+	font-family: "微軟正黑體";
+	font-size: 14px;
+	text-decoration: none;
+	letter-spacing: 3px;
+	color: #909090;
+	background-color: #f9f9f9 ;
+    border-bottom: 1px solid #efefef;
+    padding: 20px 25px;
+	display:block
+}
+.memberleft a:hover{
+	color: #000;
+	font-weight: bold;
+	font-size: 16px;
+}
+.Paw_memberright{
+	width: 800px;
+	float: left;
+	margin-left: 10%;
+}
+.memberright{
+	margin-left: -150px;
+    border: 2px solid #f8f8f8;
+    padding: 25px;
+    min-height: 235px;
+}
+.page{
+	margin-bottom: 80px;
+	margin-top: 50px;
+	text-align: center;
+}
+.page a{
+	font-size: 14px
+	color: #000;
+	line-height: 21px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #000;
+	padding:5px 8px 5px 8px;
+	width: 23px;
+	height: 23px;
+	border:1px solid #000;
+}
+.page a:hover{
+	background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+/*member end*/
+/*order*/
+#Paw_order{
+	margin: 0 auto;
+    width: auto;
+}
+#order{
+    margin: 50px auto;
+    width: auto;
+}
+#order .title{
+	font-size: 10px;
+	letter-spacing: 0.2em;
+	margin-top: 8%;
+	margin-left: 8%;
+	text-align: center;
+}
+#order .title p{
+	font-weight: 3;
+	font-size: 50px;
+	background:url('../img/member/member_title.png') no-repeat;
+	background-position: 715px 37px;
+}
+.orderinfo{
+	background-color: #fff;
+}
+.orderinfo a{
+	color: #000;
+	text-decoration: none;
+}
+.orderinfo a:hover{
+	color: #f489b0;
+}
+table thead tr th{
+	font-family: "微軟正黑體";
+	font-weight: normal;
+	font-size: 16px;
+	color: #909090;
+	text-align: center;
+	margin-left:auto; 
+	margin-right:auto;
+	padding-bottom: 20px;
+}
+table thead tr th .order_date{
+	width: 50px;
+	display: inline-block;
+    vertical-align: middle;
+}
+table thead tr th  .order_id{
+	width: 50px;
+	display: inline-block;
+    vertical-align: middle;
+}
+table thead tr th  .order_paying{
+	width: 50px;
+	display: inline-block;
+    vertical-align: middle;
+}
+table thead tr th .order_total{
+	width: 200px;
+    display: inline;
+    vertical-align: middle;
+}
+table thead tr th  .order_delete{
+	width: 200px;
+    display: inline;
+    vertical-align: middle;
+}
+table tbody tr td {
+	text-align: center;
+	margin-left:auto; 
+	margin-right:auto;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color: #f9f9f9;
+}
+table tbody tr td .Paw_button:hover{
+	color:#ef6464;
+	font-size: 21px;
+	outline-color:#f9f9f9;
+}
+/*order end*/
+/*member_information*/
+.member_information{
+	background-color: #fff;
+}
+.member_information div{
+	margin-bottom: 30px;
+}
+.member_information label{
+	font-weight: normal;
+	margin-right: 30px;
+	margin-left: 20px;
+    width: 65px;
+    display: inline-block;
+}
+.member_information input[type='text'],input[type='password']{
+	width: 390px;
+	display: inline-block;
+    border: 1px solid #c2c2c2;
+    padding: 10px;
+    color: #606060;
+    letter-spacing: 0.5px;
+}
+.member_information .Paw_button{
+	margin-left: 50%;
+	margin-top: 50px;
+}
+.member_information .Paw_change{
+	color: #fff;
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 21px;
+	letter-spacing: 2px;
+	text-align: center;
+	text-decoration: none;
+	width: 60px;
+	height: 50px;
+	margin-right: 20px;
+	padding:5px 8px 5px 8px;
+	background-color: #000;
+	border:1px solid #000;
+}
+.member_information button:hover{
+	background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+/*member_information end*/
+ .page{
+	margin-bottom: 40px;
+	margin-top: 50px;
+	text-align: center;
+}
+ .page a{
+	font-size: 14px
+	color: #000;
+	line-height: 21px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #fff;
+	padding: 10px 13px 10px 13px;
+	width: 30px;
+	height: 30px;
+	border:1px solid #000;
+	margin-right: 10px;
+}
+ .page a:hover{
+	background: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
+/*order_content*/
+.order_content table{
+	/*border: 1px solid #c6c4c4 ;*/
+}
+.order_content table thead tr th{
+	width: 277px;
+	font-family: "微軟正黑體";
+	font-size: 16px;
+	color: #909090;
+	letter-spacing: 0.3em;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.order_content table thead tr th a{
+	margin-right: -30px;
+	font-family: "微軟正黑體";
+	font-size: 16px;
+	color: #909090;
+	text-align: center;
+}
+.order_content table thead tr th a:hover{
+	font-family: "微軟正黑體";
+	font-size: 16px;
+	color: #f489b0;
+	text-decoration: none;
+	text-align: center;
+}
+.order_content table tbody tr td img{
+	width: 90px;
+	height: 90px;
+}
+.order_content table tbody tr td {
+	text-align: center;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right: 20px;
+	background-color: #fff;
+}
+.order_content table tbody tr td .Paw_button:hover{
+	color:#ef6464;
+	font-size: 21px;
+	outline-color:#f9f9f9;
+}
+.order_content .page{
+	border-top: 1px solid #c2c2c2;
+	padding-top: 45px;
+	margin-bottom: 40px;
+	margin-top: 50px;
+	text-align: center;
+}
+.order_content .page a{
+	font-size: 14px
+	color: #000;
+	line-height: 21px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #fff;
+	padding: 10px 13px 10px 13px;
+	width: 30px;
+	height: 30px;
+	border:1px solid #000;
+	margin-right: 10px;
+}
+.order_content .page a:hover{
+	background: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
+.order_content .content_special td{
+	background: #e2e0e0;
+}
+/*order_content end*/
+/*member_sale*/
+.member_sale{
+	background-color: #fff;
+}
+.member_sale div{
+	margin-bottom: 30px;
+}
+.member_sale .sale_title{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: "微軟正黑體";
+	letter-spacing: 0.3em;
+	color: #474747;
+	margin-top: 20px;
+}
+.member_sale .sale_button button{
+	font-size: 14px;
+	font-family: "微軟正黑體";
+	color: #fff;
+	letter-spacing: 0.3em;
+	border:1px solid #f489b0;
+	text-align: center;
+	text-decoration: none;
+	background-color: #f489b0;
+	width: 170px;
+	height: 50px;
+	padding:5px 8px 5px 8px;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+.member_sale .sale_button button:hover{
+	background-color: #f45f95;
+}
+.member_sale .sale_button button:focus{
+	outline: none;
+}
+.sale_content table thead tr th{
+	width: 277px;
+	font-family: "微軟正黑體";
+	font-size: 16px;
+	color: #909090;
+	letter-spacing: 0.3em;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.sale_content table thead tr th a{
+	margin-right: -30px;
+	font-family: "微軟正黑體";
+	font-size: 16px;
+	color: #909090;
+	text-align: center;
+}
+.sale_content table thead tr th a:hover{
+	font-family: "微軟正黑體";
+	font-size: 16px;
+	color: #f489b0;
+	text-decoration: none;
+	text-align: center;
+}
+.sale_content table tbody tr td img{
+	width: 90px;
+	height: 90px;
+}
+.sale_content table tbody tr td {
+	letter-spacing: 0.15em;
+	text-align: center;
+	padding-top:25px;
+	padding-bottom:25px;
+	padding-right: 20px;
+	background-color: #fff;
+}
+.sale_content .page{
+	border-top: 1px solid #c2c2c2;
+	padding-top: 45px;
+	margin-bottom: 40px;
+	margin-top: 50px;
+	text-align: center;
+}
+.sale_content .sale_special td{
+	background: #e2e0e0;
+}
+/*member_sale end*/

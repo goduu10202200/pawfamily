@@ -1,0 +1,172 @@
+#aboutus{
+    margin: 0 auto;
+    width: auto;
+}
+.aboutus_title {
+	margin: 0;
+    padding: 0;
+    padding: 40px 0 50px;
+}
+.aboutus_title h2 {
+    text-align: center;
+    font-size: 45px;
+    color: #222222;
+    letter-spacing: 0.2em;
+    line-height: 1.8em;
+
+}
+.hr1{ 
+	border:0; 
+	margin-top:40px;
+	height:1px; 
+	width:25%;
+	background-color:#707070;
+	color:#707070;
+}
+.aboutuswrap {
+	margin: 0;
+    padding: 0;
+}
+.aboutus_bg {
+    height: 400px;
+    text-align: center;
+    background: url(../img/aboutus/aboutus2.jpg) no-repeat center center;
+    background-size: cover;
+}
+.aboutus_bg h3 span {
+	padding-top: 182px;
+	margin-left:-700px;
+    display: block;
+    font-size: 60px;
+    font-weight: normal;
+    color: #222222;
+}
+.aboutus1 {
+    max-width: 1300px;
+    margin: 75px auto  0;
+}
+.aboutus1 h4 {
+    font-size: 40px;
+    font-family: "微軟正黑體";
+    color: #222222;
+    letter-spacing: 0.2em;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.aboutus1_1 {
+    position: relative;
+    height: 350px;
+    margin-top: 55px;
+}
+.txt{
+	float: left;
+    position: relative;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.txt .p {
+    font-size: 18px;
+    color: #666666;
+    letter-spacing: 0.2em;
+    line-height: 2.0em;
+    text-align: left;
+    position: relative;
+    padding: 30px 20px 30px 20px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+.aboutus1_1 img {
+    float: right;
+    width: 48.2%;
+    margin-top: 15px;
+    margin-bottom: 70px;
+}
+.aboutus1_1 img:hover {
+   background-color: #C37500;
+    opacity: 0.6;
+}
+.photohover {
+    float: right;
+    width: 46.2%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    background: -webkit-linear-gradient(100%);
+    background: linear-gradient(100%);
+}
+
+.photohover .line {
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  overflow: hidden;
+  top: 15px;
+  left: 0;
+  padding: 3em;
+  text-align: left;
+}
+.photohover img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(90% + 100px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-40px,0,0);
+  transform: translate3d(-40px,0,0);
+}
+.photohover .line:before {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  border: 2px solid #000;
+  content: '';
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-20px,0,0);
+  transform: translate3d(-20px,0,0);
+}
+
+.photohover a, .photohover p {
+  font-family: "微軟正黑體";
+  font-size: 40px;
+  font-weight: bold;
+  color: #FFF;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+}
+
+.photohover:hover img {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.photohover:hover p { 
+    padding-bottom:0; 
+    border-bottom:1px solid #000;
+    display: inline-block;
+}
+.photohover:hover .line:before,
+.photohover:hover a, .photohover:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}    
+.aboutus2_2 {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

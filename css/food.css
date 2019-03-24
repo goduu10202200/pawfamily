@@ -1,0 +1,64 @@
+.food_earthborn{
+	padding-right: 25px;
+    padding-left: 25px;
+    margin-top:100px;
+    margin-left:50px;
+    margin-bottom:30px;
+    text-align: center;
+}
+
+.food_earthborntext{
+	list-style-type: disc;
+    text-align: left;
+    font-size:20px;
+    letter-spacing:0.2em;
+    line-height: 2.0em;
+	font-family: "微軟正黑體";
+	color: #606060;
+}
+
+.food_earthborntext img{
+	width:100%;
+    height:100%;
+    display:block; 
+    margin: 50px auto 50px auto; 
+}
+
+.food_earthborntext h4{
+
+	list-style-type: disc;
+	font-size:25px;
+	color: #f489b0;
+	text-align:left;
+}
+
+.food_earthborntext ul{
+	list-style-type: disc;
+    text-align: left;
+    font-size:20px;
+    letter-spacing:0.2em;
+    line-height: 2.0em;
+	font-family: "微軟正黑體";
+	color: #606060;
+}
+
+.food_earthborntext p{
+	text-align:justify;
+	margin-top:25px;
+	padding-left:40px;
+	padding-right:50px;
+
+}
+.food_earthborntext h3{
+	margin-bottom:30px;
+	list-style-type: disc;
+	 font-size:25px;
+	 color: #f489b0;
+	 text-align:left;
+}
+.food_earthborntext ul {
+	display: inline;
+}
+.food_earthborntext li{
+	margin-left: 50px;
+}
